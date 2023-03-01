@@ -14,10 +14,12 @@ struct HeaderView: View {
                 .font(.headline)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-                .padding(.top, 50)
+                .padding(.top)
+                .padding(.bottom, 10)
         }
-        .frame(width: Constants.screen.width, height: Constants.screen.height * 0.1)
-        .background(Color.tabBarColor)
+        .frame(width: Constants.screen.width)
+        .background(Color.tabBarColor.ignoresSafeArea())
+        
     }
 }
 

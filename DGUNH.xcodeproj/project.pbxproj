@@ -19,6 +19,7 @@
 		39F59A4F29AF386B001D3E67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59A4E29AF386B001D3E67 /* Constants.swift */; };
 		39F59A5129AF3EE7001D3E67 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59A5029AF3EE7001D3E67 /* Color.swift */; };
 		39F59A5829AF8AE6001D3E67 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59A5729AF8AE6001D3E67 /* HeaderView.swift */; };
+		39F59A5A29AF8E56001D3E67 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F59A5929AF8E56001D3E67 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		39F59A4E29AF386B001D3E67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		39F59A5029AF3EE7001D3E67 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		39F59A5729AF8AE6001D3E67 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		39F59A5929AF8E56001D3E67 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +134,8 @@
 		39F59A4529AF3586001D3E67 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				39F59A5429AF8ABD001D3E67 /* Components */,
 				39F59A4629AF3596001D3E67 /* HomeView.swift */,
+				39F59A5429AF8ABD001D3E67 /* Components */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				39F59A5729AF8AE6001D3E67 /* HeaderView.swift */,
+				39F59A5929AF8E56001D3E67 /* ImageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				39F59A4329AF31F8001D3E67 /* TabIcon.swift in Sources */,
 				39F59A4729AF3596001D3E67 /* HomeView.swift in Sources */,
 				39F59A5829AF8AE6001D3E67 /* HeaderView.swift in Sources */,
+				39F59A5A29AF8E56001D3E67 /* ImageView.swift in Sources */,
 				39F59A4C29AF35C5001D3E67 /* AccountView.swift in Sources */,
 				39F59A4A29AF35B6001D3E67 /* ChatView.swift in Sources */,
 				39F59A2B29AF2A2D001D3E67 /* DGUNHApp.swift in Sources */,
