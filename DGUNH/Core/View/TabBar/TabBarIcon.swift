@@ -15,7 +15,6 @@ struct TabBarIcon: View {
         VStack {
             Image(tab.icon)
                 .resizable()
-//                .frame(width: currentTab == tab ? 40: 35, height: currentTab == tab ? 40: 35)
         }
         .scaleEffect(0.5)
         .frame(width: currentTab == tab ? 70: 60, height: currentTab == tab ? 70: 60)

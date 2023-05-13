@@ -25,6 +25,7 @@
 		398923152A0FDF4600CB4D1D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398923142A0FDF4600CB4D1D /* Inter-Regular.ttf */; };
 		398923172A0FEC8A00CB4D1D /* CategoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923162A0FEC8A00CB4D1D /* CategoryButtonView.swift */; };
 		398923192A0FF3EF00CB4D1D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923182A0FF3EF00CB4D1D /* CardView.swift */; };
+		3989231B2A10083C00CB4D1D /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989231A2A10083C00CB4D1D /* Banner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		398923142A0FDF4600CB4D1D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		398923162A0FEC8A00CB4D1D /* CategoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonView.swift; sourceTree = "<group>"; };
 		398923182A0FF3EF00CB4D1D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3989231A2A10083C00CB4D1D /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				3989230B2A0FD98000CB4D1D /* NavBannerView.swift */,
 				398923162A0FEC8A00CB4D1D /* CategoryButtonView.swift */,
 				398923182A0FF3EF00CB4D1D /* CardView.swift */,
+				3989231A2A10083C00CB4D1D /* Banner.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				398923192A0FF3EF00CB4D1D /* CardView.swift in Sources */,
 				398922F62A0F80A500CB4D1D /* TabBarIcon.swift in Sources */,
 				398923172A0FEC8A00CB4D1D /* CategoryButtonView.swift in Sources */,
+				3989231B2A10083C00CB4D1D /* Banner.swift in Sources */,
 				398922DE2A0E015C00CB4D1D /* DGUNHApp.swift in Sources */,
 				398922EC2A0EE30700CB4D1D /* Color.swift in Sources */,
 				398923062A0F989C00CB4D1D /* HomeViewModel.swift in Sources */,
