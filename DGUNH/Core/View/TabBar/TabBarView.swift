@@ -47,16 +47,15 @@ extension TabBarView {
         }
     }
     private var tabBarIcon: some View {
-        HStack(spacing: 34) {
+        HStack(alignment: .center, spacing: 40) {
             ForEach(Tab.allCases, id: \.self) { tab in
                 TabBarIcon(tab: tab, currentTab: $store.currenTab)
             }
-            .padding(.bottom, 18)
+            .padding(.bottom, 58)
             .padding(.top, 10)
         }
         .frame(width: UIScreen.main.bounds.width)
-        .background(Color.tabBar)
-        .cornerRadius(40)
-        
+        .background(Color.tabBar.cornerRadius(40).shadow(radius: 1))
+        .offset(y: 40)
     }
 }
