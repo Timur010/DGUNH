@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct DGUNHApp: App {
+    @StateObject var store = Store()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
+                .environmentObject(store)
         }
     }
 }
