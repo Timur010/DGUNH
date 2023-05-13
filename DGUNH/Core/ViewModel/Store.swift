@@ -26,3 +26,7 @@ enum Tab: String, CaseIterable {
         }
     }
 }
+
+enum CurrenCategory {
+    case news, advert
+}

@@ -9,7 +9,6 @@ import SwiftUI
 
 struct TabBarView: View {
     @EnvironmentObject private var store: Store
-    
     var body: some View {
         NavigationView {
             ZStack(alignment: .bottom) {
@@ -45,9 +44,12 @@ extension TabBarView {
                 .tag(Tab.account)
                 .navigationBarHidden(true)
         }
+        .onAppear {
+            UITabBar.appearance().barTintColor = .black
+        }
     }
     private var tabBarIcon: some View {
-        HStack(alignment: .center, spacing: 40) {
+        HStack(alignment: .center, spacing: 50) {
             ForEach(Tab.allCases, id: \.self) { tab in
                 TabBarIcon(tab: tab, currentTab: $store.currenTab)
             }

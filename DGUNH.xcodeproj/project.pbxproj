@@ -17,7 +17,14 @@
 		398922FB2A0F875100CB4D1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398922FA2A0F875100CB4D1D /* HomeView.swift */; };
 		398922FF2A0F877A00CB4D1D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398922FE2A0F877A00CB4D1D /* AccountView.swift */; };
 		398923022A0F878A00CB4D1D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923012A0F878A00CB4D1D /* ChatView.swift */; };
-		398923042A0F94BF00CB4D1D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923032A0F94BF00CB4D1D /* View.swift */; };
+		398923062A0F989C00CB4D1D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923052A0F989C00CB4D1D /* HomeViewModel.swift */; };
+		398923092A0F9DEA00CB4D1D /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923082A0F9DEA00CB4D1D /* Page.swift */; };
+		3989230C2A0FD98000CB4D1D /* NavBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3989230B2A0FD98000CB4D1D /* NavBannerView.swift */; };
+		398923112A0FDC0800CB4D1D /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398923102A0FDC0800CB4D1D /* Inter-SemiBold.ttf */; };
+		398923132A0FDCBF00CB4D1D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923122A0FDCBF00CB4D1D /* Font.swift */; };
+		398923152A0FDF4600CB4D1D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398923142A0FDF4600CB4D1D /* Inter-Regular.ttf */; };
+		398923172A0FEC8A00CB4D1D /* CategoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923162A0FEC8A00CB4D1D /* CategoryButtonView.swift */; };
+		398923192A0FF3EF00CB4D1D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398923182A0FF3EF00CB4D1D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +39,15 @@
 		398922FA2A0F875100CB4D1D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		398922FE2A0F877A00CB4D1D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		398923012A0F878A00CB4D1D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		398923032A0F94BF00CB4D1D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		398923052A0F989C00CB4D1D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		398923082A0F9DEA00CB4D1D /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		3989230A2A0FCAD200CB4D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3989230B2A0FD98000CB4D1D /* NavBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBannerView.swift; sourceTree = "<group>"; };
+		398923102A0FDC0800CB4D1D /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		398923122A0FDCBF00CB4D1D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		398923142A0FDF4600CB4D1D /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		398923162A0FEC8A00CB4D1D /* CategoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButtonView.swift; sourceTree = "<group>"; };
+		398923182A0FF3EF00CB4D1D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +82,8 @@
 			children = (
 				398922EF2A0F6FDA00CB4D1D /* Core */,
 				398922ED2A0EE3A700CB4D1D /* Extention */,
+				3989230D2A0FDBC100CB4D1D /* Font */,
+				3989230A2A0FCAD200CB4D1D /* Info.plist */,
 				398922DD2A0E015C00CB4D1D /* DGUNHApp.swift */,
 				398922E12A0E015D00CB4D1D /* Assets.xcassets */,
 				398922E32A0E015D00CB4D1D /* Preview Content */,
@@ -86,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				398922EB2A0EE30700CB4D1D /* Color.swift */,
-				398923032A0F94BF00CB4D1D /* View.swift */,
+				398923122A0FDCBF00CB4D1D /* Font.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -124,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				398922F32A0F711700CB4D1D /* Store.swift */,
+				398923052A0F989C00CB4D1D /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -132,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				398922FA2A0F875100CB4D1D /* HomeView.swift */,
+				398923072A0F9DD700CB4D1D /* Component */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -150,6 +169,26 @@
 				398923012A0F878A00CB4D1D /* ChatView.swift */,
 			);
 			path = Chat;
+			sourceTree = "<group>";
+		};
+		398923072A0F9DD700CB4D1D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				398923082A0F9DEA00CB4D1D /* Page.swift */,
+				3989230B2A0FD98000CB4D1D /* NavBannerView.swift */,
+				398923162A0FEC8A00CB4D1D /* CategoryButtonView.swift */,
+				398923182A0FF3EF00CB4D1D /* CardView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3989230D2A0FDBC100CB4D1D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				398923102A0FDC0800CB4D1D /* Inter-SemiBold.ttf */,
+				398923142A0FDF4600CB4D1D /* Inter-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398923112A0FDC0800CB4D1D /* Inter-SemiBold.ttf in Resources */,
 				398922E52A0E015D00CB4D1D /* Preview Assets.xcassets in Resources */,
+				398923152A0FDF4600CB4D1D /* Inter-Regular.ttf in Resources */,
 				398922E22A0E015D00CB4D1D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,12 +263,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398923192A0FF3EF00CB4D1D /* CardView.swift in Sources */,
 				398922F62A0F80A500CB4D1D /* TabBarIcon.swift in Sources */,
+				398923172A0FEC8A00CB4D1D /* CategoryButtonView.swift in Sources */,
 				398922DE2A0E015C00CB4D1D /* DGUNHApp.swift in Sources */,
 				398922EC2A0EE30700CB4D1D /* Color.swift in Sources */,
+				398923062A0F989C00CB4D1D /* HomeViewModel.swift in Sources */,
 				398922FB2A0F875100CB4D1D /* HomeView.swift in Sources */,
 				398922FF2A0F877A00CB4D1D /* AccountView.swift in Sources */,
-				398923042A0F94BF00CB4D1D /* View.swift in Sources */,
+				398923092A0F9DEA00CB4D1D /* Page.swift in Sources */,
+				398923132A0FDCBF00CB4D1D /* Font.swift in Sources */,
+				3989230C2A0FD98000CB4D1D /* NavBannerView.swift in Sources */,
 				398923022A0F878A00CB4D1D /* ChatView.swift in Sources */,
 				398922F82A0F868D00CB4D1D /* TabBarView.swift in Sources */,
 				398922F42A0F711700CB4D1D /* Store.swift in Sources */,
@@ -362,11 +408,15 @@
 				DEVELOPMENT_TEAM = WX7Z7T8KYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DGUNH/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,11 +441,15 @@
 				DEVELOPMENT_TEAM = WX7Z7T8KYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DGUNH/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,16 +8,16 @@
 import SwiftUI
 
 extension Color {
+    static var secondaryColor: Color {
+        return Color("SecondaryColor")
+    }
+    
     static var accent: Color {
         return Color("Accent")
     }
     
     static var background: Color {
         return Color("Background")
-    }
-    
-    static var secondary: Color {
-        return Color("Secondary")
     }
     
     static var tabBar: Color {
