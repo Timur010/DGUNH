@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @StateObject var vm = HomeViewModel()
+    @StateObject var vm = HomeViewModel(postService: PostService())
     var body: some View {
         ScrollView (.vertical, showsIndicators: false) {
             NavBannerView()

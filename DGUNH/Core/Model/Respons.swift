@@ -9,6 +9,4 @@ import Foundation
 
 struct Response<T: Codable>: Codable {
     let data: T?
-    let status: Bool?
-    let items: T?
 }

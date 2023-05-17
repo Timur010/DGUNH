@@ -54,6 +54,6 @@ struct NavBannerView: View {
 struct BannerView_Previews: PreviewProvider {
     static var previews: some View {
         NavBannerView()
-            .environmentObject(HomeViewModel())
+            .environmentObject(HomeViewModel(postService: PostService()))
     }
 }
