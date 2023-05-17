@@ -59,7 +59,7 @@ class BaseRequest {
             case 401:
                 return .failure(.unexpectedStatusCode)
             default:
-                guard let decodedResponse = try? JSONDecoder().decode(Response<String>.self, from: data) else {
+                guard let decodedResponse = try? JSONDecoder().decode(String.self, from: data) else {
                     return .failure(.unexpectedStatusCode)
                 }
 
